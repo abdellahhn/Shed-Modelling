@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ca.ulaval.glo2004.AppTest" time="0.063" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/abdellahhanane/IdeaProjects/lol/A23-Equipe37/chalCLT/target/test-classes:/Users/abdellahhanane/IdeaProjects/lol/A23-Equipe37/chalCLT/target/classes:/Users/abdellahhanane/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/abdellahhanane/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/abdellahhanane/.m2/repository/com/google/truth/truth/1.0.1/truth-1.0.1.jar:/Users/abdellahhanane/.m2/repository/com/google/guava/guava/28.1-android/guava-28.1-android.jar:/Users/abdellahhanane/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/abdellahhanane/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/abdellahhanane/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/abdellahhanane/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/abdellahhanane/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar:/Users/abdellahhanane/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/abdellahhanane/.m2/repository/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar:/Users/abdellahhanane/.m2/repository/com/google/auto/value/auto-value-annotations/1.6.3/auto-value-annotations-1.6.3.jar:/Users/abdellahhanane/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.3/error_prone_annotations-2.3.3.jar:/Users/abdellahhanane/.m2/repository/unknown/binary/AbsoluteLayout/SNAPSHOT/AbsoluteLayout-SNAPSHOT.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/abdellahhanane/IdeaProjects/lol/A23-Equipe37/chalCLT/target/surefire/surefirebooter6743685887267153126.jar /Users/abdellahhanane/IdeaProjects/lol/A23-Equipe37/chalCLT/target/surefire 2023-12-19T16-47-36_171-jvmRun1 surefire12554461466361331388tmp surefire_03119415820450679616tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/abdellahhanane/IdeaProjects/lol/A23-Equipe37/chalCLT/target/test-classes:/Users/abdellahhanane/IdeaProjects/lol/A23-Equipe37/chalCLT/target/classes:/Users/abdellahhanane/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/abdellahhanane/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/abdellahhanane/.m2/repository/com/google/truth/truth/1.0.1/truth-1.0.1.jar:/Users/abdellahhanane/.m2/repository/com/google/guava/guava/28.1-android/guava-28.1-android.jar:/Users/abdellahhanane/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/abdellahhanane/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/abdellahhanane/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/abdellahhanane/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/abdellahhanane/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar:/Users/abdellahhanane/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/abdellahhanane/.m2/repository/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar:/Users/abdellahhanane/.m2/repository/com/google/auto/value/auto-value-annotations/1.6.3/auto-value-annotations-1.6.3.jar:/Users/abdellahhanane/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.3/error_prone_annotations-2.3.3.jar:/Users/abdellahhanane/.m2/repository/unknown/binary/AbsoluteLayout/SNAPSHOT/AbsoluteLayout-SNAPSHOT.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/abdellahhanane"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/abdellahhanane/IdeaProjects/lol/A23-Equipe37/chalCLT"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/abdellahhanane/IdeaProjects/lol/A23-Equipe37/chalCLT/target/surefire/surefirebooter6743685887267153126.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="19.0.1+10-21"/>
+    <property name="user.name" value="abdellahhanane"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.6"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="/Applications/NetBeans/Apache NetBeans 16.app/Contents/Resources/NetBeans/netbeans/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="localRepository" value="/Users/abdellahhanane/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/8h/5jmz7h_56c3d99xkwgdyht2c0000gn/T/"/>
+    <property name="java.version" value="19.0.1"/>
+    <property name="user.dir" value="/Users/abdellahhanane/IdeaProjects/lol/A23-Equipe37/chalCLT"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/abdellahhanane/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.1+10-21"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="exempleDuneAssertionJUnit" classname="ca.ulaval.glo2004.AppTest" time="0.003"/>
+  <testcase name="exempleDuneAssertionGoogleTruth" classname="ca.ulaval.glo2004.AppTest" time="0.027"/>
+</testsuite>
